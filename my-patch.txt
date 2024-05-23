@@ -1,0 +1,38 @@
+Return-Path: <jacksonprice@u.boisestate.edu>
+Received: from codespaces-dd5547.p1uozhyv05muxbwouot12he5vg.xx.internal.cloudapp.net ([4.155.209.119])
+        by smtp.gmail.com with ESMTPSA id 41be03b00d2f7-6340b769197sm20360446a12.24.2024.05.22.20.55.24
+        for <jacksonprice@u.boisestate.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 22 May 2024 20:55:24 -0700 (PDT)
+From: Jackson Price <jacksonprice@u.boisestate.edu>
+To: jacksonprice@u.boisestate.edu
+Subject: [PATCH] Submit Project
+Date: Thu, 23 May 2024 03:55:02 +0000
+Message-ID: <20240523035502.13630-1-jacksonprice@u.boisestate.edu>
+X-Mailer: git-send-email 2.44.0
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+---
+ my-name.txt  | 1 +
+ the-date.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 my-name.txt
+ create mode 100644 the-date.txt
+
+diff --git a/my-name.txt b/my-name.txt
+new file mode 100644
+index 0000000..e66c1e8
+--- /dev/null
++++ b/my-name.txt
+@@ -0,0 +1 @@
++My Name
+diff --git a/the-date.txt b/the-date.txt
+new file mode 100644
+index 0000000..31c5d71
+--- /dev/null
++++ b/the-date.txt
+@@ -0,0 +1 @@
++Thu May 23 03:37:47 UTC 2024
+-- 
+2.44.0
